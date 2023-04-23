@@ -1,4 +1,4 @@
-# An AI object detection model for non-wearing mask people.     
+# Object detection model for non-wearing mask people.     
 This project proposes an AI object detection model using the YOLOv5 architecture to identify individuals not wearing masks. The model was trained on a dataset of images and achieved accurate results in identifying people not wearing masks.
 
 
