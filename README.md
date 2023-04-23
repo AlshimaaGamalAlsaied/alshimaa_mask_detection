@@ -10,8 +10,11 @@ The model was trained on [Dataset](https://www.kaggle.com/andrewmvd/face-mask-de
 
 ## Preprocessing
 To prepare the dataset to be used for YOLO training, we need to go through the following steps:
+<br>
 i. Set the classes into [with mask, and without mask].
+<br>
 ii. Unzip and convert the data into the YOLO format.
+<br>
 iii. Split the data into train and test with ratio of 80/20%. 
 
 
