@@ -49,4 +49,4 @@ To assess the various models, we can compare their speed and several matrices, s
 | mAP<sup>val<br>0.5:0.95 | 0.562 | 0.562 | 0.562 | 
 
 ## Conclusion
-The conclusion compares two original YOLO models with 100 and 150 epochs and finds that the 100 epoch model is better due to its shorter training time and similar performance metrics. The fine-tuned model with frozen layers showed higher speed and similar mAP results, making it the optimal model for the mask detection project.
+Comparing the two original YOLO models with 100 and 150 epochs, the 100 epoch model is better due to its shorter training time and similar performance metrics. The fine-tuned model with frozen layers showed higher speed and similar mAP results, making it the optimal model for the mask detection project.
