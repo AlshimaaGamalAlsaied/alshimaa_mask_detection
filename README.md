@@ -1,4 +1,4 @@
-# Object detection model for non-wearing mask people.     
+# An object detection model for non-wearing mask people.     
 This project proposes an AI object detection model using the YOLOv5 architecture to identify individuals not wearing masks. The model was trained on a dataset of images and achieved accurate results in identifying people not wearing masks.
 
 
@@ -31,15 +31,16 @@ The table below presents the ground truth for a set of images, as well as the ou
 
 | Ground Truth | Original with100 epochs | Freeze with 100 epochs | 
 | :-: | :-: |:-: |
-| ![](fig/output_49.png) | ![](fig/inference/original/maksssksksss49.png) | ![](fig/inference/freez/maksssksksss49.png) | 
-| ![](fig/output_119.png) | ![](fig/inference/original/maksssksksss119.png) | ![](fig/inference/freez/maksssksksss119.png)| 
+| ![](fig/ground_truth/output_49.png) | ![](fig/inference/original/maksssksksss49.png) | ![](fig/inference/freez/maksssksksss49.png) | 
+| ![](fig/ground_truth/output_119.png) | ![](fig/inference/original/maksssksksss119.png) | ![](fig/inference/freez/maksssksksss119.png)| 
 | ![]() | ![](fig/test_output.png) | ![](fig/test_output_freez_100.png)| 
 
 
 ## Evaluation
 To assess the various models, we can compare their speed and several matrices, such as precision, recall, mAP, and IoU. Among these, mAP (mean Average Precision) is a widely used metric for evaluating object detection models. 
+
 | Evaluation | Original with100 epochs | Original with 150 epochs | Freeze with 100 epochs | 
-| :-: | :-: | :-: | :-: | :-: | 
+| :-: | :-: | :-: | :-: | 
 | Speed | 11.7 sec | 10.8 sec | 0.7 sec | 
 | mAP<sup>val<br>0.5  | 0.854 | 0.854 | 0.852 |  
 | mAP<sup>val<br>0.5:0.95 | 0.562 | 0.562 | 0.562 | 
